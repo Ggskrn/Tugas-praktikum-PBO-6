@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Huruf;
+
+/**
+ *
+ * @author USER
+ */
+public class HurufZtoA {
+    public static void tampilHurufZtoA() {
+        System.out.println("Deretan huruf Z ke A:");
+        for (char huruf = 'Z'; huruf >= 'A'; huruf--) {
+            System.out.print(huruf + " ");
+        }
+        System.out.println(); // untuk baris baru
+    }
+    public static void main(String[] args) {
+        tampilHurufZtoA(); // Memanggil method tampilHurufZtoA
+    }
+}
